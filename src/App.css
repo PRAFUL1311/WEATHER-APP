@@ -1,0 +1,41 @@
+/* App.css */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url('D:/React/my-app/src/WHEATHER.gif') center/cover fixed no-repeat;
+  background-size: cover;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header h3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3498db;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 80%;
+  }
+}
